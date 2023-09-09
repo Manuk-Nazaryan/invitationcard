@@ -6,14 +6,13 @@ body{
 /* grid-template-columns: repeat(1,1fr); */
 }
 .bg{
-    background-image: url(../image/background.jpg);
+    background-image: url(../image/bg1.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-height: 592px;
+height: 100vh;
 padding:100px 0 60px 0;
     transition: ease-in 2s; 
-
 }
 .text,.name{
     text-align: center;
@@ -27,7 +26,7 @@ padding:100px 0 60px 0;
     font-style: oblique;
 }
 .name{
-  font-style: italic;   
+  font-style: inherit;   
   margin: 40px;
 }
 .name-guest{
