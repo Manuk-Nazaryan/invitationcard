@@ -59,6 +59,7 @@ header input {
   background-color: rgba(136, 128, 128, 0.432);
   border: none;
   border-radius: 10px;
+  color: white;
 }
 header .btn-box {
   display: -webkit-box;
